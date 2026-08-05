@@ -142,12 +142,32 @@ pytest -q
 ```
 
 ## Model metrics
+Model metrics (fill these values after you evaluate the trained model on a hold-out test set).
 
-Model metrics are not included in this repository because the raw dataset is not provided here. Compute and record metrics such as MAE, RMSE, and R² after evaluating the model with the dataset.
+- **MAE (Mean Absolute Error):** _replace with number, e.g. 12345.67_
+- **RMSE (Root Mean Squared Error):** _replace with number, e.g. 15678.90_
+- **R² (Coefficient of Determination):** _replace with number, e.g. 0.82_
+
+How to update: run the evaluation cell in `notebooks/house_price_model.ipynb` or your evaluation script, then edit these lines in `README.md` to show the real numbers.
+
+If you prefer Arabic labels, add them like this:
+
+- **MAE (متوسط الخطأ المطلق):** _اكتب القيمة_
+- **RMSE (الجذر التربيعي لمتوسط مربع الخطأ):** _اكتب القيمة_
+- **R² (معامل التحديد):** _اكتب القيمة_
 
 ## Screenshots
+Include screenshots of the running app to demonstrate the UI. Recommended steps:
 
-Add screenshots of the running app in a `screenshots/` folder if required for submission.
+1. Create a `screenshots/` folder in the repository root (or `frontend/public/screenshots/` if you want them served by the frontend).
+2. Save images with descriptive names, for example: `screenshot-1.png`, `screenshot-2.png`.
+3. Add them to the README by replacing or adding the image references below.
+
+Example (replace with your actual file names):
+
+![App screenshot 1](screenshots/screenshot-1.png)
+
+If you prefer Arabic instructions in the README, you can add: "ضع لقطات الشاشة في مجلد `screenshots/`، ثم أضفها هنا باستخدام صيغة Markdown أعلاه."
 
 ## Submission checklist
 
@@ -157,3 +177,5 @@ Add screenshots of the running app in a `screenshots/` folder if required for su
 - [x] Backend and frontend setup commands are present.
 - [x] Large `.pkl` model and raw dataset files are excluded from Git.
 - [x] Backend tests pass.
+ - [ ] `README.md` includes final model metrics (MAE, RMSE, R²) filled with real numbers.
+ - [ ] `screenshots/` folder contains at least one screenshot referenced in this `README.md`.
