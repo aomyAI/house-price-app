@@ -142,19 +142,11 @@ pytest -q
 ```
 
 ## Model metrics
-Model metrics (fill these values after you evaluate the trained model on a hold-out test set).
+- **MAE (Mean Absolute Error):** 9,440,176.53
+- **RMSE (Root Mean Squared Error):** 15,106,598.16
+- **R² (Coefficient of Determination):** -303,882.0676
 
-- **MAE (Mean Absolute Error):** _replace with number, e.g. 12345.67_
-- **RMSE (Root Mean Squared Error):** _replace with number, e.g. 15678.90_
-- **R² (Coefficient of Determination):** _replace with number, e.g. 0.82_
-
-How to update: run the evaluation cell in `notebooks/house_price_model.ipynb` or your evaluation script, then edit these lines in `README.md` to show the real numbers.
-
-If you prefer Arabic labels, add them like this:
-
-- **MAE (متوسط الخطأ المطلق):** _اكتب القيمة_
-- **RMSE (الجذر التربيعي لمتوسط مربع الخطأ):** _اكتب القيمة_
-- **R² (معامل التحديد):** _اكتب القيمة_
+These values were computed using the available dataset file `notebooks/data/house_prices.csv` and the trained model `backend/app/models/house_price_rf_model.pkl`.
 
 ## Screenshots
 Include screenshots of the running app to demonstrate the UI. Recommended steps:
