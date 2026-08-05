@@ -22,6 +22,10 @@ data/
 *.csv
 *.log
 
+# Large or generated artifacts
+*.pkl
+notebooks/.ipynb_checkpoints/
+
 # Builds
 build/
 dist/

@@ -33,8 +33,10 @@ Environment
 - `backend/.env.example` is provided as a reference.
 
 Model file
-- The model used by the backend lives at `backend/app/models/house_price_rf_model.pkl`.
-- If this file is larger than 50MB do NOT add it to the repository: upload it to a cloud storage (Drive/Dropbox/GitHub Release) and add a download link here.
+- The model used by the backend is expected at `backend/app/models/house_price_rf_model.pkl`.
+- This repository does not include the `.pkl` model file because it exceeds 50MB.
+- Upload the model file to a cloud storage service or GitHub Release, then download it manually and place it at `backend/app/models/house_price_rf_model.pkl`.
+- Example: `backend/app/models/house_price_rf_model.pkl`
 
 API
 - POST `/api/predict` — accepts a JSON matching `frontend/src/types/prediction.ts` and returns `{status: "ok", predicted_price: number}`.
