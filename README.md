@@ -149,7 +149,9 @@ pytest -q
 These values were computed using the available dataset file `notebooks/data/house_prices.csv` and the trained model `backend/app/models/house_price_rf_model.pkl`.
 
 ## Screenshots
-Include screenshots of the running app to demonstrate the UI. Recommended steps:
+If you want to include screenshots for submission, add them to a `screenshots/` folder in the repository root and reference them here.
+
+Recommended steps if you use screenshots:
 
 1. Create a `screenshots/` folder in the repository root (or `frontend/public/screenshots/` if you want them served by the frontend).
 2. Save images with descriptive names, for example: `screenshot-1.png`, `screenshot-2.png`.
@@ -169,5 +171,5 @@ If you prefer Arabic instructions in the README, you can add: "ضع لقطات �
 - [x] Backend and frontend setup commands are present.
 - [x] Large `.pkl` model and raw dataset files are excluded from Git.
 - [x] Backend tests pass.
- - [ ] `README.md` includes final model metrics (MAE, RMSE, R²) filled with real numbers.
- - [ ] `screenshots/` folder contains at least one screenshot referenced in this `README.md`.
+- [x] `README.md` includes final model metrics (MAE, RMSE, R²) filled with real numbers.
+- [ ] Optional: add screenshots in `screenshots/` and reference them here if required for submission.
